@@ -7,7 +7,7 @@ library(data.table)
 
 
 #upload the plink.map file
-map1 <- fread("/Users/tariqr/Desktop/dragonfruit/WGS/vcftool/genotyped_hapmap.map", header = F)
+map1 <- fread("~/path/genotyped_hapmap.map", header = F)
 
 head(map1, n = 20)
 
